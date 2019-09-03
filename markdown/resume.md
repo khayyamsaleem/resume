@@ -7,7 +7,7 @@ Education
 ---------
 
 Aug 2015 - May 2019
-:   **B.S. Computer Science** Stevens Institute of Technology, *Hoboken, NJ 07095*
+:   **B.S. Computer Science** Stevens Institute of Technology, *Hoboken, NJ 07030*
 
     Honors: Dean's List, Presidential Scholarship<br/>
     Minors: Mathematics, Literature<br/>
