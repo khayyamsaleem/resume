@@ -1,0 +1,138 @@
+\documentclass[letterpaper]{deedy-resume} % Use US Letter paper, change to a4paper for A4 
+\usepackage{xcolor}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+
+\namesection{Khayyam}{Saleem}{ % Your name\\
+1012 Palisade Ave, Union City, NJ 07088 \\ 
+\href{https://linkedin.com/in/khayyamsaleem}{LinkedIn} | \href{https://github.com/khayyamsaleem}{GitHub} | \href{https://khayyam.me}{Blog}
+}
+
+%
+%----------------------------------------------------------------------------------------
+%	RIGHT COLUMN
+%----------------------------------------------------------------------------------------
+%
+\begin{minipage}[t]{1.0\textwidth} % The right column takes up 66% of the text width of the page
+
+%------------------------------------------------
+% Experience
+%------------------------------------------------
+
+\section{Education}
+
+\runsubsection{Stevens Institute of Technology}
+\descript{| Hoboken, NJ }
+
+\location{BSc. Computer Science | August 2015 - May 2019}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightitemize}
+\item \textit{Honors}: Dean's List, Presidential Scholarship. \textit{Minors}: Mathematics, Literature
+\item \textit{Notable Coursework}: Type Systems for Programming Languages, Concurrent Programming, Intro to Graph Theory
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+\section{Experience}
+
+\runsubsection{JP Morgan \& Chase}
+\descript{| Jersey City, New Jersey}
+
+\location{Intern $\rightarrow$ Machine Learning Platform Engineer | June 2018 - Present}
+\begin{tightitemize}
+\item Built and deployed healthcheck API for message queue infrastructure as part of SRE team [Spring Boot, Maven, IBM MQ]
+\item Built SRE maturity assessment portal [Flask, SQLAlchemy, React]
+\item Moved documentation for ML platform from Gatsby to Hugo, built CI pipeline [Hugo, Jenkins]
+\item Implemented Redux on ML platform frontend, and taught effecting Redux paradigms to team members [React, Redux]
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\runsubsection{Codecademy}
+\descript{| Manhattan, New York}
+
+\location{Coach $\rightarrow$ Curriculum Experience Associate | August 2016 - Present}
+\begin{tightitemize}
+\item Worked directly with learners and developed strong understanding of their pain points and areas of need
+\item Audited curriculum content across almost all courses offered on the platform
+\item Built and deployed \href{https://cxp.codecademy.com}{internal ledger and review system}, complete with Slack and JIRA integration [\textcolor{green}{ask me more!}]
+  \begin{itemize}
+  \item Built RESTful API and web extension to simplify workflow for CXPs [gin, Redis, webext-redux]
+  \item Realized web extension was not particularly helpful and REBUILT frontend as a web app [React, Redux, Typescript]
+  \item Deployed dockerized application on AWS, with CI pipeline [S3, CircleCI]
+  \end{itemize}
+\item Actively participated in company events such as lightning talks, learner events, and hackathon presences
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\runsubsection{New Mexico State University}
+\descript{| Las Cruces, New Mexico}
+
+\location{Research Assistant | May 2017 - Aug 2017}
+\begin{tightitemize}
+\item Selected to conduct research at NSF REU (Research Experience for Undergraduates) site
+\item Built and packaged deep learning model for control chart pattern recognition, deployed on supercomputer
+\item Presented findings at AAAS 2018 ERN Conference for STEM
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Research
+%------------------------------------------------
+
+\section{Projects}
+
+\runsubsection{\href{https://devblog.lifeskillssoftware.tech}{Life Skills Software}}
+\descript{| Hoboken, New Jersey}
+
+\location{Lead Developer $\rightarrow$ CTO | Sept 2018 – Present}
+An online platform for special-needs classrooms that gamifies the assessment and development of life skills [\textcolor{green}{ask me more!}]
+\begin{tightitemize}
+\item Communicated directly with potential clients about needs and desires for the platform
+\item Designed end-to-end microservice architecture and deployment pipelines on a single VPS [Traefik, Jenkins, Gitlab CI]
+\item Implemented paradigms and documented workflows for other developers on the team to follow
+\item Built and containerized every application and service [docker, node, React, Redux]
+\end{tightitemize}
+
+\runsubsection{\href{https://github.com/khayyamsaleem/Client-Connect}{Client Connect}}
+\descript{| Hoboken, New Jersey}
+\location{Lead Developer | March 2018 - May 2018}
+Application to help clients connect with freelancers based on location and required skillset
+\begin{tightitemize}
+\item Built MERN app with token-based authentication for multiple user types [Next.js, React, express, mongoose]
+\item Implemented chat feature withj message caching [Socket.IO, Redis]
+\end{tightitemize}
+
+\runsubsection{\href{https://github.com/khayyamsaleem/explicit-lang-type-inference-engine}{type inference}}
+\descript{| Hoboken, New Jersey}
+\location{Type Theorist | March 2018 - May 2018}
+Implementation of Hindley-Milner type inference algorithm in OCaml for type systems course
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+\section{Skills}
+
+\textbf{Languages}: go, javascript, python, java, c, c++, sql, ocaml, clojure, erlang, scala, english, urdu, hindi
+
+\textbf{Frameworks \& Tools}: docker, traefik, gin, react, redux, express, flask, \LaTeX, sqlalchemy, mongoose, traefik, nginx
+
+\textbf{Other}: communication, empathy, puns, setting up development environments, modularizing large application requirements
+
+
+%----------------------------------------------------------------------------------------
+
+\end{minipage} % The end of the right column
+
+
+\end{document}
