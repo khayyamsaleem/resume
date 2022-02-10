@@ -21,7 +21,7 @@ jobs:
       with:
         working_directory: ./resume-onepage
         root_file: |
-          resume-onepage/cv_12.tex
+          cv_12.tex
     - name: save pdf
       uses: actions/upload-artifact@v2
       with:
