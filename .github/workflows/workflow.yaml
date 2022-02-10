@@ -19,9 +19,8 @@ jobs:
     - name: make pdf
       uses: xu-cheng/latex-action@v2
       with:
-        working_directory: ./resume-onepage
         root_file: |
-          cv_12.tex
+          resume-onepage/cv_12.tex
     - name: save pdf
       uses: actions/upload-artifact@v2
       with:
