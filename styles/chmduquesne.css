@@ -1,4 +1,5 @@
 <style type="text/css">
+
 /*
  * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
  *
@@ -8,13 +9,65 @@
  * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
  */
 
+
 /* Whole document */
+
+a {
+    text-decoration: underline !important;
+    color: black !important;
+}
+
+#cloudflare img {
+    margin-bottom: 1px;
+}
+
+img {
+    width: 14px;
+    margin-top: -15px;
+    margin-bottom: -3px;
+}
+
+#khayyam-saleem {
+    margin-top: 0.5em;
+    font-size: 35px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin-top: 0.8em;
+    font-size: 0.9em !important;
+}
+
+h1 {
+    font-size: 20px !important;
+    margin-bottom: -50px;
+}
+
+ol,ul {
+    margin-top: 0.5em;
+    margin-bottom: 0.3em;
+    list-style: circle;
+}
+
+ol,ul * {
+    font-size: 12px !important;
+}
+
+dl * {
+    font-size: 12px;
+}
+
+dt {
+    font-size: 0.6rem;
+}
+
 body {
-    font-family: "Times New Romain", Times, Times New Roman, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     max-width: 850px;
     margin: auto;
     background: #FFFFFF;
     padding: 10px 10px 10px 10px;
+    line-height: 1.5;
+    font-size: 0.7em !important;
 }
 
 /* Title of the resume */

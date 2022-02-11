@@ -1,94 +1,74 @@
 Khayyam Saleem
 ============
 
-<br/>
-
 Education
 ---------
 
-Aug 2015 - May 2019
-:   **B.S. Computer Science** Stevens Institute of Technology, *Hoboken, NJ 07030*
+Sep 2015 - May 2019
+:   **B.S. Computer Science** -- Stevens Institute of Technology ![stevens](./stevens.png), _Hoboken, NJ_
 
-    Honors: Dean's List, Presidential Scholarship<br/>
-    Minors: Mathematics, Literature<br/>
-    President of Upsilon Pi Epsilon [Computer Science Honor Society]<br/>
+    _Minors_: Mathematics, Literature
 
 Experience
 ----------
-May 2019 - Present
-:   **Software Engineer**, J.P. Morgan & Chase, *Jersey City, NJ*
 
-    * Created continuous deployment pipeline (via Jenkins) for documentation site
+Apr 2021 - Present
+:   **Senior API Architecture Engineer**, J.P. Morgan Chase, *Jersey City, NJ*
+
+    - Created [Developer Portal](https://developer.chase.com) for external partners using Chase APIs
+    - Lead team of 7 engineers to deliver API publishing automation and observability with Datadog
+    - Provisioned AWS EKS ![eks-logo](https://www.densify.com/wp-content/uploads/icon-aws-amazon-eks.svg) infrastructure with `terraform` ![terraform-logo](./terraform.svg)
+    - Built out CI pipeline with Jenkins ![Jenkins](./jenkins.svg) and `kustomize`
+    - Deployed [automated service virtualization](https://apidemo.chase.com) from OpenAPI spec
+    - Strangled out routes from legacy developer portal using reverse-proxy route overrides
+    - Created cross-team documentation-as-code system and deployment pipelines using Hugo
+
+Jan 2020 - Apr 2021
+:   **Cloud ETL Platform Engineer**, J.P. Morgan Chase, *Jersey City, NJ*
+
+    - Designed and deployed a managed data pipeline solution for ETL jobs on internal k8s ![kube](./kube.png)
+    - Migrated large-scale ETL jobs from legacy infrastructure to cloud pipelines
+    - Developed object inventory and audit API for ETL pipeline artifacts
 
 Jun 2018 - May 2019
 :   **Software Engineer Intern**, J.P. Morgan & Chase, *Jersey City, NJ*
 
-    * Built SRE  assessment portal for SRE team (end-to-end) [Flask, SQLAlchemy, React]
-    * Deployed RESTful API to perform a health check on message queue infrastructure for Infrastructure team [Java, JMS, Spring Boot, Maven]
+    - Developed healthcheck tool for message queue infrastructure
 
 Dec 2018 - Present
-:   **Curriculum Experience Associate**, Codecademy, *Manhattan, NY*
+:   **Curriculum Developer**, Codecademy ![codecademy](./codecademy.png) , *Manhattan, NY*
 
+    * Write content for high-volume courses
+      * java + spring boot, python, node.js + express, python + flask, go, c# + asp.net, devops, more
     * Audit curriculum content across all courses
-    * Built and deployed internal ledger and review system for content changes [Go, React]
-      - *<span style="color: green;">Ask me more about this!</span>*
-    * Fix bugs in content, including tests for learner code and assisting in pedagogy
-
-May 2017 - Aug 2017
-:   **Research Assistant**, New Mexico State University, *Las Cruces, NM*
-
-    * NSF REU site
-    * Deep Learning for Control Chart Pattern Recognition
-    * Presented findings at AAAS 2018 ERN Conference for STEM
-
-Aug 2016 - Dec 2018
-:   **Codecademy Pro Advisor**, Codecademy, *Manhattan, NY*
-
-    * Moderate learner communities for “Intensive” courses for data science and data visualization
-    * Perform QA on upcoming content and new courses
-
-Aug 2016 - Present
-: **Teaching Assistant**, Stevens Institute of Technology, *Hoboken, NJ*.
-
-    * CS115 – Intro to CS, conducted weekly lab, wrote grading scripts [Python]
-    * CS284 – Data Structures, taught weekly recitation, wrote assignments [Java]
-    * CS496 – Programming Languages, ported course from Racket to OCaml
-    * CS511 – Concurrent Programming, ported course from Erlang to Elixir<br/><br/>
+    * Built internal ledger and review system for content changes [go, react, web-extensions]
 
 Personal Projects
 --------------------
 
-[Life Skills Software](https://devblog.lifeskillssoftware.tech/)
+[Life Skills Software](https://lifeskills.software/)
 :   A platform for special-needs classrooms, gamifying the assessment and development of life skills
 
-    * Communicated with potential clients about their needs for the platform
-    * Created microservice architecture deployed on a single VPS [Traefik]
-    * Developed web app with token-based authentication, S3 for static assets [React, DigitalOcean Spaces]
-    * Created CI/CD pipeline for team of 3 to develop and deploy quickly [Jenkins, docker-compose, Github Webhooks]
-    * Created CI/CD pipeline again with Gitlab CI
-    * *<span style="color: green;">I could talk about LSS for days, please ask more</span>*
+    * Deployed microservice architecture on DigitalOcean ![digitalocean](./digitalocean.png) VPS with `terraform`
+    * Deployed high-availability sites with Cloudflare <span id="cloudflare">![cloudflare](./cloudflare.png)</span>
+    * Migrated from VPS to K8S with zero downtime
+    * Created CI/CD pipeline for team of 22 to develop and deploy games, videos, articles, and software quickly [Jenkins, github-actions, gitlab-ci]
 
-[Client Connect](https://github.com/khayyamsaleem/Client-Connect)
-:   Application designed to help clients connect with freelancers based on location and skillset
-
-    * Built REST API [node, express, MongoDB]
-    * Created frontend application with token-based authentication for clients and freelancers [Next.js, React]
-    * Created uniform development environment that deployed all services locally [docker-compose]
-    * Implemented chat application with message caching [Socket.IO, redis]
-
-[gradual-typing](https://github.com/khayyamsaleem/gradual-typing)<br/>[type-inference](https://github.com/khayyamsaleem/explicit-lang-type-inference-engine)
-:   Implementation of gradual typing in MIT-scheme<br/>Implementation of Hindley-Milner type inference engine in OCaml for Type Systems course
+[gradual-typing](https://github.com/khayyamsaleem/gradual-typing)<br/>[type-inference](https://github.com/khayyamsaleem/explicit-lang-type-inference-engine)<br/>[aws-k3s-lightsail](https://github.com/khayyamsaleem/aws-k3s-lightsail)
+:   Implementation of gradual typing in MIT-scheme<br/>Implementation of Hindley-Milner type inference engine in OCaml for Type Systems course<br/>Deploy k3s on lightsail with terraform
 
 Skills
 ----------------------------------------
 
 Languages
-:   go, javascript, python, java, c, c++, sql, ocaml, erlang, racket, clojure, english, urdu, hindi
+:   go, java, rust, ruby, javascript, lua, python, c++, sql, racket, english, urdu, hindi
 
 Frameworks
-:  react, redux, express, node, flask, LaTeX, sqlalchemy, docker, traefik 
+:  react+redux, node.js+express, python+flask, java+spring-boot, ORMs, LaTeX
+
+Tools
+:  docker, nginx, contour, envoy, k8s, hugo, vim and other linux stuff
 
 ----
 
-> <hello@khayyam.me> • [Github](https://github.com/khayyamsaleem) • [LinkedIn](https://linkedin.com/in/khayyamsaleem) • +1 (973) 941-7323 \
-> Hoboken, NJ 07095, USA
+> <hello@khayyam.me> • [Github](https://github.com/khayyamsaleem) • [LinkedIn](https://linkedin.com/in/khayyamsaleem) • +1 (973) 941-7323 • Union City, NJ 07087, USA
